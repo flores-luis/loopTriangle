@@ -24,3 +24,10 @@ for (let e = 0; e < 7; e++){
 }
 
 // Creating a loop that runs as long as 'i' is less than 10
+
+let i = 0
+
+while (i < 10) {
+    i++
+    console.log('This code is running')
+}
