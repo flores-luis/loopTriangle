@@ -59,9 +59,16 @@ Break question into parts:
     a. in addition also print FizzBuzz if number is divisible by BOTH 3 & 5
 */
 
-let x = 0;
+// My solution...
 
-while (x < 101) {
-    console.log(x)
-    x++
+for (y = 1; y <= 100; y++){
+    if (y % 3 === 0 && y % 5 === 0){
+        console.log('FizzBuzz')
+    }else if (y % 3 === 0){
+        console.log('Fizz')
+    }else if (y % 5 === 0){
+        console.log('Buzz')
+    } else {
+        console.log(y)
+    }
 }
