@@ -31,3 +31,12 @@ while (i < 10) {
     i++
     console.log('This code is running')
 }
+
+/* Write a program that uses console.log to print all the number from 1-100 with two exceptions. 
+For numbers divisible by 3 print Fizz instead of a number, and for numbers divisible by 5 (and 
+not 3) print Buzz.
+
+When you have that workign modify your program to print Fizzbuzz for numbers that are divisible 
+by both 3 & 5( and still print Fizz or Buzz for number divisible by only on of those)
+*/
+
