@@ -36,7 +36,32 @@ while (i < 10) {
 For numbers divisible by 3 print Fizz instead of a number, and for numbers divisible by 5 (and 
 not 3) print Buzz.
 
-When you have that workign modify your program to print Fizzbuzz for numbers that are divisible 
+When you have that working modify your program to print Fizzbuzz for numbers that are divisible 
 by both 3 & 5( and still print Fizz or Buzz for number divisible by only on of those)
+
+This is a interview question
+
 */
 
+console.log('Print 1 to 100 Challenge')
+
+/*
+
+Break question into parts:
+
+1. create program to print 1-100
+2. create 2 exceptions
+    a. 1st exception:
+    - number divisible by 3 print Fizz
+    b. 2nd exception:
+    - number divisible by 5 print Buzz
+3. create a 3rd exception
+    a. in addition also print FizzBuzz if number is divisible by BOTH 3 & 5
+*/
+
+let x = 0;
+
+while (x < 101) {
+    console.log(x)
+    x++
+}
