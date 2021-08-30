@@ -72,3 +72,17 @@ for (y = 1; y <= 100; y++){
         console.log(y)
     }
 }
+
+// Alternative solution using !() -----NEED TO REVIEW THIS SYNTAX (altered starting points)
+
+for (i=101; i<=200; i++) {
+    if ( !(i%5) && !(i%3) ) {
+        console.log('FizzBuzz');
+    } else if ( !(i%5) && (i%3)) {
+        console.log('Buzz');
+    } else if ( !(i%3) ) {
+        console.log('Fizz');
+    } else {
+        console.log(i);
+    }
+}
