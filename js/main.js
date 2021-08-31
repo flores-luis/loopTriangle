@@ -101,7 +101,7 @@ Passing this string to console.log should show something like this
  # # # #
 # # # #
  # # # #
- 
+
  When you have a program that generates this pattern define a binding size = 8, 
  and change the program so that it works for any size, outputting a grid of the 
  given width and height
@@ -117,3 +117,28 @@ console.log('Creating a\nChess board project!')
         1. 
 */
 
+var size = 8;
+var block = '#';
+var space = ' ';
+
+for (var t = 1; t <= size; t++) {
+  var line = '';
+
+  for (var u = 1; u <= size; u++){
+    if (t%2) {
+        if (u%2) {
+            line = line + space;
+        } else {
+            line = line + block;
+        }
+    } else {
+        if (u%2) {
+            line = line + block;
+        } else {
+            line = line + space;
+        }
+    }
+  }
+
+  console.log(line);
+}
