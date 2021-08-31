@@ -117,7 +117,7 @@ console.log('Creating a\nChess board project!')
         1. 
 */
 
-var size = 8;
+var size = 10;
 var block = '#';
 var space = ' ';
 
