@@ -114,7 +114,6 @@ console.log('Creating a\nChess board project!')
         - creates string
         - \n creates a breakpoint and new line (new line character)
         Breaking down the steps
-        1. 
 */
 
 var size = 10;
